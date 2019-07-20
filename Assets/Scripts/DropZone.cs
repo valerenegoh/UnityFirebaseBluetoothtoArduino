@@ -85,6 +85,7 @@ public class DropZone : MonoBehaviour, IDropHandler{
             BluetoothLEHardwareInterface.Log ("Error: " + error);
         });
         enabled = false;
+        StartCoroutine(ShowStatistics());
     }
 
     public void OnDrop(PointerEventData eventData){
@@ -193,7 +194,7 @@ public class DropZone : MonoBehaviour, IDropHandler{
 
     private IEnumerator SendArduino(){
         d.RetrieveFromDatabase();
-        yield return new WaitForSeconds(2.0f);  //wait awhile before getting popularity score
+        yield return new WaitForSeconds(1.0f);  //wait awhile before getting popularity score
         print("Playing Track: " + d.getTitle() + " of popularity " + d.getPopularity());
         Song song = new Song();
         song.setPopularity(d.getPopularity() + 1);        // update view count
@@ -245,9 +246,28 @@ public class DropZone : MonoBehaviour, IDropHandler{
     // SETTINGS SCREEN
 
     public Draggable TestFile;
+    public Text statistics;
+    public Dictionary<string, string> playlist = new Dictionary<string, string>();
 
     public void TestScale(){
         d = TestFile;
         StartCoroutine(SendArduino());
+    }
+
+    public IEnumerator ShowStatistics(){
+        foreach(Draggable cd in CdList){
+            Song song = new Song();
+            RestClient.Get<Song>("https://pico-86a8b.firebaseio.com/" + cd.getTitle() + ".json").Then(response =>{
+                    song = response;
+                    playlist[cd.getTitle()] = song.getPopularity().ToString();   //update values
+                });
+        }
+        yield return new WaitForSeconds(1.0f);  //wait awhile before updating statistics
+        statistics.text = "";
+        int count = 0;
+        foreach(KeyValuePair<string, string> pair in playlist){
+            count += 1;
+            statistics.text += string.Format("{0}.\t{1}: {2}\n", count, pair.Key, pair.Value);
+        }
     }
 }
