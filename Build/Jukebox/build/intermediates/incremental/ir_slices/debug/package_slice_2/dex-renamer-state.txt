@@ -1,0 +1,4 @@
+#Wed Jul 17 16:32:02 SGT 2019
+base.0=C\:\\Users\\ASUS\\Downloads\\Telegram Desktop\\ToAndroid\\UnityBluetoothtoArduino\\Build\\Jukebox\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,2 @@
+C:\Users\Akatsukiera\OneDrive - Singapore University of Technology and Design\SUTD\Capstone\Game\Unity\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Akatsukiera\OneDrive - Singapore University of Technology and Design\SUTD\Capstone\Game\Unity\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
