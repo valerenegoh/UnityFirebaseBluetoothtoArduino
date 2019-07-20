@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FCBB35DE-08E4-CC76-A262-132C82DC9FD1}</ProjectGuid>
+    <ProjectGuid>{6A0B7E99-62F9-33CE-2028-052CC36E7AB1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -59,52 +59,52 @@
      <Compile Include="Assets\Plugins\BluetoothHardwareInterface.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Editor">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-weaver.Editor">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Editor">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/Editor.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="XiaomiSupport">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Unity/2019.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -284,19 +284,19 @@
  <HintPath>D:/Unity/2019.1.5f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="ChannelPurchase">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/PackageCache/com.unity.xiaomi@1.0.3/ChannelPurchase.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/PackageCache/com.unity.xiaomi@1.0.3/ChannelPurchase.dll</HintPath>
  </Reference>
  <Reference Include="UnityStore">
- <HintPath>C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/ToAndroid/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
+ <HintPath>D:/try/UnityBluetoothtoArduino-master/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Unity/2019.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

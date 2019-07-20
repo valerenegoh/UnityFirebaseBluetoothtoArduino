@@ -93,14 +93,14 @@ public class DropZone : MonoBehaviour, IDropHandler{
             d.parentToReturnTo = this.transform;
         }
         canRotatePlayer = true;
-        title = d.gameObject.name;
-        StartCoroutine(SendArduino());
-        scroll.GetComponent<ScrollRect>().enabled = false;
+        title = d.getTitle();
         foreach (Draggable cd in CdList){
-            if (cd.name != title){
+            if (cd.getTitle() != title){
                 cd.draggable = false;
             }
         }
+        scroll.GetComponent<ScrollRect>().enabled = false;
+        StartCoroutine(SendArduino());
     }
 
     void Update(){

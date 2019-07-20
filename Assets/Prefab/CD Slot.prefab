@@ -193,7 +193,8 @@ MonoBehaviour:
   parentToReturnTo: {fileID: 0}
   parent: {fileID: 0}
   TextFile: {fileID: 0}
-  draggable: 0
+  draggable: 1
+  popularity: 0
 --- !u!114 &3823929942843852756
 MonoBehaviour:
   m_ObjectHideFlags: 0

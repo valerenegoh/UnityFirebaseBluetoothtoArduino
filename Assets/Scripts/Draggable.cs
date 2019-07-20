@@ -8,7 +8,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public Transform parentToReturnTo;
     public Transform parent;
     public TextAsset TextFile;
-    public bool draggable;
+    public bool draggable = true;
     public int popularity;
 
     public void OnBeginDrag(PointerEventData eventData){
