@@ -272,7 +272,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.1359028e-25, y: 0, z: 1.8e-43, w: 0}
+  m_BoundingSphereOverride: {x: 1e-45, y: 0, z: 1.01e-43, w: 0.7890625}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -858,9 +858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9f36e35c3d02d4ab11f12adc0a6836, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DeviceName: HMSoft
-  ServiceUUID: FFE0
-  Characteristic: FFE1
   CdList:
   - {fileID: 1913957679}
   - {fileID: 1324694964}
@@ -871,10 +868,12 @@ MonoBehaviour:
   title: 
   d: {fileID: 0}
   scroll: {fileID: 1356874032}
-  HM10_Status: {fileID: 792808545}
-  enabled: 0
   TestFile: {fileID: 1913957679}
   statistics: {fileID: 1867626569}
+  HM10_Status: {fileID: 792808545}
+  DeviceName: HMSoft
+  ServiceUUID: FFE0
+  Characteristic: FFE1
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
