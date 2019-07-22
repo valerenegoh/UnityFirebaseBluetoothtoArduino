@@ -24,7 +24,6 @@ int A2_LED = 28;
 int AS2_LED = 26;
 int B2_LED = 24;
 int C3_LED = 22;
-int motor = 2;
 
 void setup() {
   Serial.begin(9600);
@@ -53,7 +52,6 @@ void setup() {
   pinMode(AS2_LED, OUTPUT);
   pinMode(B2_LED, OUTPUT);
   pinMode(C3_LED, OUTPUT);
-  pinMode(motor, OUTPUT);
   digitalWrite (C1_LED, LOW);
   digitalWrite (CS1_LED, LOW);
   digitalWrite (D1_LED, LOW);
@@ -79,7 +77,6 @@ void setup() {
   digitalWrite (AS2_LED, LOW);
   digitalWrite (B2_LED, LOW);
   digitalWrite (C3_LED, LOW);
-  digitalWrite (motor, LOW);
 }
 
 void loop() {
@@ -211,13 +208,7 @@ void loop() {
         digitalWrite (C3_LED, HIGH);
         delay(100);
         digitalWrite(C3_LED, LOW);
-        break;
-      case 'w':
-        digitalWrite (motor, HIGH);
-        break; 
-      case 'z':
-        digitalWrite(motor, LOW);
-        break; 
+        break;      
     }
   }
 }

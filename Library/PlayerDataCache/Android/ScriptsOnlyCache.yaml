@@ -3,12 +3,13 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Draggable
     - DropZone
-    - Settings
+    - ScrollRectSnap_CS
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
@@ -55,51 +56,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9404}
     - Class: 114
-      Script: {instanceID: 9434}
+      Script: {instanceID: 9458}
     - Class: 114
       Script: {instanceID: 9460}
     - Class: 114
-      Script: {instanceID: 9462}
+      Script: {instanceID: 9500}
     - Class: 114
-      Script: {instanceID: 9502}
-    - Class: 114
-      Script: {instanceID: 9520}
+      Script: {instanceID: 9518}
     - Class: 114
       Script: {instanceID: 9548}
     - Class: 114
-      Script: {instanceID: 9550}
+      Script: {instanceID: 9554}
     - Class: 114
       Script: {instanceID: 9556}
     - Class: 114
-      Script: {instanceID: 9558}
+      Script: {instanceID: 9560}
     - Class: 114
-      Script: {instanceID: 9562}
+      Script: {instanceID: 9564}
     - Class: 114
-      Script: {instanceID: 9566}
+      Script: {instanceID: 9568}
     - Class: 114
-      Script: {instanceID: 9570}
+      Script: {instanceID: 9572}
     - Class: 114
-      Script: {instanceID: 9574}
+      Script: {instanceID: 9596}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 9604}
     - Class: 114
       Script: {instanceID: 9606}
     - Class: 114
-      Script: {instanceID: 9608}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9838}
+      Script: {instanceID: 9922}
     - Class: 114
-      Script: {instanceID: 9928}
+      Script: {instanceID: 10052}
     - Class: 114
-      Script: {instanceID: 10066}
+      Script: {instanceID: 10260}
     - Class: 114
-      Script: {instanceID: 10276}
+      Script: {instanceID: 10328}
     - Class: 114
-      Script: {instanceID: 10350}
+      Script: {instanceID: 10552}
     - Class: 114
-      Script: {instanceID: 10580}
-    - Class: 114
-      Script: {instanceID: 12524}
+      Script: {instanceID: 10592}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -141,12 +138,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 6299f47fb43a4a6bfd321160e01d1422
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Settings
   - hash:
       serializedVersion: 2
       Hash: 5bd9a19c7b5f76c563418e28f48a561b
@@ -617,7 +608,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: e0b69dd1e87a42ad02e5c48bef5e6fba
+      Hash: 4d0a1f97407c4620252d0835c55a2cbe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DropZone
@@ -719,7 +710,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: bcd491096aa5b7b9d42e196bdf7ce843
+      Hash: ddb6f9676e4ead66357b7876f48fc417
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Draggable
@@ -815,6 +806,12 @@ ScriptsOnlyBuild:
     className: MainThreadDispatcher
   - hash:
       serializedVersion: 2
+      Hash: 87d8b51e4021d61190de78646d375093
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScrollRectSnap_CS
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -869,12 +866,6 @@ ScriptsOnlyBuild:
     className: NetworkAnimator
   - hash:
       serializedVersion: 2
-      Hash: 10149b0af07ae83eb789d1f57ec9c007
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScrollRectSnap
-  - hash:
-      serializedVersion: 2
       Hash: 5372ed2ce39229b1ac910757999a8be2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -912,4 +903,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/ASUS/Documents/GitHub/UnityFirebaseBluetoothtoArduino/Build
+  playerPath: C:/Users/ASUS/Downloads/Telegram Desktop/ToAndroid/UnityBluetoothtoArduino/Build
