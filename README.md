@@ -2,6 +2,8 @@
 Stage 5 of SUTD Capstone 45 Pico Musical Engineering Installation project.<br/>
 Refer to the following [link](https://youtu.be/EubplCl5Q8s) for a demo.
 
+Firebase implementation reference: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
+
 Unity directly reads the corresponding text file and sends the notes to play to an Arduino via Serial communication.
 
 Bluetooth communication between Unity and Arduino: https://assetstore.unity.com/packages/tools/network/bluetooth-le-for-ios-tvos-and-android-26661
