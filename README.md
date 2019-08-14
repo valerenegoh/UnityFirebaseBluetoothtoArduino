@@ -2,6 +2,9 @@
 Stage 5 of SUTD Capstone 45 Pico Musical Engineering Installation project.<br/>
 Refer to the following [link](https://youtu.be/EubplCl5Q8s) for a demo.
 
+A real-time firebase database was added to track the popularity statistics of each song:
+![image](https://user-images.githubusercontent.com/23626462/63003991-fa53ed00-beab-11e9-930a-88502ff84362.png)
+
 Firebase implementation reference: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
 
 Unity directly reads the corresponding text file and sends the notes to play to an Arduino via Serial communication.
