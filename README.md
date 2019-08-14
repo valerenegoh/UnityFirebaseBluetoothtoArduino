@@ -6,7 +6,7 @@ A real-time firebase database was added to track the popularity statistics of ea
 
 ![image](https://user-images.githubusercontent.com/23626462/63004160-50c12b80-beac-11e9-93b2-375b1c245f4f.png)
 
-Firebase implementation reference: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
+Creating the Firebase implementation takes reference from: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
 
 Unity directly reads the corresponding text file and sends the notes to play to an Arduino via Serial communication.
 
