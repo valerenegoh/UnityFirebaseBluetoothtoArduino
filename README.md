@@ -2,9 +2,9 @@
 Stage 5 of SUTD Capstone 45 Pico Musical Engineering Installation project.<br/>
 Refer to the following [link](https://youtu.be/EubplCl5Q8s) for a demo.
 
-A real-time firebase database was added to track the popularity statistics of each song:
+A real-time firebase database was added to track the popularity statistics of each song. An snapshot is seen below:
 
-![image](https://user-images.githubusercontent.com/23626462/63004053-1eafc980-beac-11e9-8224-62de6c21d602.png)
+![image](https://user-images.githubusercontent.com/23626462/63004160-50c12b80-beac-11e9-93b2-375b1c245f4f.png)
 
 Firebase implementation reference: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
 
